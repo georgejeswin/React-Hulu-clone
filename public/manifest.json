@@ -1,0 +1,22 @@
+{
+    "name": "Hulu clone",
+    "short_name": "Hulu clone",
+    "theme_color": "#172734",
+    "background_color": "#172937",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+  "icons": [
+    {
+      "src": "192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+  
+}

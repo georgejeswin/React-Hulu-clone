@@ -1,0 +1,24 @@
+.videoCard {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  color: #fff;
+  transition: transform 150ms ease-in;
+}
+.videoCard:hover {
+  transform: scale(1.09);
+}
+.videoCard > img {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+}
+.videoCard > h5 {
+  padding-top: 10px;
+}
+.videoCard__stats {
+  display: none;
+}
+.videoCard:hover > .videoCard__stats {
+  display: inline;
+}
